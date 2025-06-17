@@ -13,10 +13,10 @@ NUM_WORKERS = 4          # データローダーのワーカー数
 NUM_EPOCHS = 10          # エポック数
 LOAD_MODEL = False       # モデルのロードフラグ
 SAVE_MODEL = True        # モデルの保存フラグ
-CHECKPOINT_GEN_A = "genh.pth.tar"          # Generator H(Horse to Zebra)
-CHECKPOINT_GEN_B = "genz.pth.tar"          # Generator Z(Zebra to Horse)
-CHECKPOINT_CRITIC_A = "critich.pth.tar"    # Critic H(Horse)
-CHECKPOINT_CRITIC_B = "criticz.pth.tar"    # Critic Z(Zebra)
+CHECKPOINT_GEN_H = "genh.pth.tar"          # Generator H(Horse to Zebra)
+CHECKPOINT_GEN_Z = "genz.pth.tar"          # Generator Z(Zebra to Horse)
+CHECKPOINT_CRITIC_H = "critich.pth.tar"    # Critic H(Horse)
+CHECKPOINT_CRITIC_Z = "criticz.pth.tar"    # Critic Z(Zebra)
  
 # データ拡張の設定
 transforms = A.Compose(
